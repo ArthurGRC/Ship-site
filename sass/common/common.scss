@@ -1,0 +1,64 @@
+.btn{
+    padding: 15px 35px !important;
+    border: 2px solid white !important;
+}
+
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header{
+    font-size: 12px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.arrowDown{
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.logo{
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.copyArthur {
+    color: $copy-color;
+}
+
+@media (max-width: 405px){
+    .logo{
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+}
